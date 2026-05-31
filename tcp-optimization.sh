@@ -5,7 +5,7 @@
 # ==================================================
 SCRIPT_PATH="/usr/local/bin/tcp.sh"
 SHORTCUT_PATH="/usr/local/bin/t"
-UPDATE_URL="https://raw.githubusercontent.com/666shen/tcp-dashboard/main/tcp.sh"
+UPDATE_URL="https://raw.githubusercontent.com/kafemars/tcp-optimization/main/tcp-optimization.sh"
 
 # 确保以 root 权限运行
 if [ "$EUID" -ne 0 ]; then
