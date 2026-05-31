@@ -19,12 +19,9 @@
 
 在你的 Ubuntu / Debian 服务器上，以 `root` 权限执行以下单行命令即可直接冲浪：
 
+
 ```bash
-bash <(curl -sL tcp.vpsing.de)
-```
-或者使用 GitHub 原生 Raw 链接（国内 VPS 可能会有延迟或超时）：
-```bash
-bash <(curl -sL https://raw.githubusercontent.com/666shen/tcp-dashboard/main/tcp.sh)
+bash <(curl -sL https://raw.githubusercontent.com/kafemars/tcp-optimization/main/tcp-optimization.sh)
 ```
 > *提示：脚本首次运行会自动将其物理安装至系统，并贴心地生成本地快捷命令 `t`。以后在任意路径直接输入 `t` 即可秒开看板。*
 
